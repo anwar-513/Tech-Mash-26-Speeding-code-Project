@@ -9,7 +9,7 @@ app = Flask(__name__, template_folder='templates')
 CORS(app)
 
 # ── API KEY ──
-API_KEY = os.getenv('GEMINI_API_KEY', 'AIzaSyAV_2cB9hP6xNT6MRRpOJGpOzDt2Pggcts')
+API_KEY = os.getenv('GEMINI_API_KEY', 'AIza******************')
 client = genai.Client(api_key=API_KEY)
 
 # ── MODEL FALLBACK LIST ──
